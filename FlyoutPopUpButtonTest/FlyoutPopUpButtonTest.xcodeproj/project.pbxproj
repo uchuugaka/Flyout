@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7013B67618AE79BD0014AED5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7013B67518AE79BD0014AED5 /* Cocoa.framework */; };
+		7013B68018AE79BD0014AED5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7013B67E18AE79BD0014AED5 /* InfoPlist.strings */; };
+		7013B68218AE79BD0014AED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013B68118AE79BD0014AED5 /* main.m */; };
+		7013B68618AE79BD0014AED5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7013B68418AE79BD0014AED5 /* Credits.rtf */; };
+		7013B68918AE79BD0014AED5 /* FlyoutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013B68818AE79BD0014AED5 /* FlyoutAppDelegate.m */; };
+		7013B68C18AE79BD0014AED5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7013B68A18AE79BD0014AED5 /* MainMenu.xib */; };
+		7013B68E18AE79BD0014AED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7013B68D18AE79BD0014AED5 /* Images.xcassets */; };
+		7013B69518AE79BD0014AED5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7013B69418AE79BD0014AED5 /* XCTest.framework */; };
+		7013B69618AE79BD0014AED5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7013B67518AE79BD0014AED5 /* Cocoa.framework */; };
+		7013B69E18AE79BD0014AED5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7013B69C18AE79BD0014AED5 /* InfoPlist.strings */; };
+		7013B6A018AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7013B69F18AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7013B69718AE79BD0014AED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7013B66A18AE79BD0014AED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7013B67118AE79BD0014AED5;
+			remoteInfo = FlyoutPopUpButtonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7013B67218AE79BD0014AED5 /* FlyoutPopUpButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyoutPopUpButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7013B67518AE79BD0014AED5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7013B67818AE79BD0014AED5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7013B67918AE79BD0014AED5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7013B67A18AE79BD0014AED5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7013B67D18AE79BD0014AED5 /* FlyoutPopUpButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyoutPopUpButtonTest-Info.plist"; sourceTree = "<group>"; };
+		7013B67F18AE79BD0014AED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7013B68118AE79BD0014AED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7013B68318AE79BD0014AED5 /* FlyoutPopUpButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyoutPopUpButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		7013B68518AE79BD0014AED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7013B68718AE79BD0014AED5 /* FlyoutAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlyoutAppDelegate.h; sourceTree = "<group>"; };
+		7013B68818AE79BD0014AED5 /* FlyoutAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyoutAppDelegate.m; sourceTree = "<group>"; };
+		7013B68B18AE79BD0014AED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7013B68D18AE79BD0014AED5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7013B69318AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyoutPopUpButtonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7013B69418AE79BD0014AED5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7013B69B18AE79BD0014AED5 /* FlyoutPopUpButtonTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyoutPopUpButtonTestTests-Info.plist"; sourceTree = "<group>"; };
+		7013B69D18AE79BD0014AED5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7013B69F18AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyoutPopUpButtonTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7013B66F18AE79BD0014AED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013B67618AE79BD0014AED5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7013B69018AE79BD0014AED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013B69618AE79BD0014AED5 /* Cocoa.framework in Frameworks */,
+				7013B69518AE79BD0014AED5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7013B66918AE79BD0014AED5 = {
+			isa = PBXGroup;
+			children = (
+				7013B67B18AE79BD0014AED5 /* FlyoutPopUpButtonTest */,
+				7013B69918AE79BD0014AED5 /* FlyoutPopUpButtonTestTests */,
+				7013B67418AE79BD0014AED5 /* Frameworks */,
+				7013B67318AE79BD0014AED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7013B67318AE79BD0014AED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7013B67218AE79BD0014AED5 /* FlyoutPopUpButtonTest.app */,
+				7013B69318AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7013B67418AE79BD0014AED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7013B67518AE79BD0014AED5 /* Cocoa.framework */,
+				7013B69418AE79BD0014AED5 /* XCTest.framework */,
+				7013B67718AE79BD0014AED5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7013B67718AE79BD0014AED5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7013B67818AE79BD0014AED5 /* AppKit.framework */,
+				7013B67918AE79BD0014AED5 /* CoreData.framework */,
+				7013B67A18AE79BD0014AED5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7013B67B18AE79BD0014AED5 /* FlyoutPopUpButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				7013B68718AE79BD0014AED5 /* FlyoutAppDelegate.h */,
+				7013B68818AE79BD0014AED5 /* FlyoutAppDelegate.m */,
+				7013B68A18AE79BD0014AED5 /* MainMenu.xib */,
+				7013B68D18AE79BD0014AED5 /* Images.xcassets */,
+				7013B67C18AE79BD0014AED5 /* Supporting Files */,
+			);
+			path = FlyoutPopUpButtonTest;
+			sourceTree = "<group>";
+		};
+		7013B67C18AE79BD0014AED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7013B67D18AE79BD0014AED5 /* FlyoutPopUpButtonTest-Info.plist */,
+				7013B67E18AE79BD0014AED5 /* InfoPlist.strings */,
+				7013B68118AE79BD0014AED5 /* main.m */,
+				7013B68318AE79BD0014AED5 /* FlyoutPopUpButtonTest-Prefix.pch */,
+				7013B68418AE79BD0014AED5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7013B69918AE79BD0014AED5 /* FlyoutPopUpButtonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				7013B69F18AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.m */,
+				7013B69A18AE79BD0014AED5 /* Supporting Files */,
+			);
+			path = FlyoutPopUpButtonTestTests;
+			sourceTree = "<group>";
+		};
+		7013B69A18AE79BD0014AED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7013B69B18AE79BD0014AED5 /* FlyoutPopUpButtonTestTests-Info.plist */,
+				7013B69C18AE79BD0014AED5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7013B67118AE79BD0014AED5 /* FlyoutPopUpButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7013B6A318AE79BD0014AED5 /* Build configuration list for PBXNativeTarget "FlyoutPopUpButtonTest" */;
+			buildPhases = (
+				7013B66E18AE79BD0014AED5 /* Sources */,
+				7013B66F18AE79BD0014AED5 /* Frameworks */,
+				7013B67018AE79BD0014AED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyoutPopUpButtonTest;
+			productName = FlyoutPopUpButtonTest;
+			productReference = 7013B67218AE79BD0014AED5 /* FlyoutPopUpButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7013B69218AE79BD0014AED5 /* FlyoutPopUpButtonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7013B6A618AE79BD0014AED5 /* Build configuration list for PBXNativeTarget "FlyoutPopUpButtonTestTests" */;
+			buildPhases = (
+				7013B68F18AE79BD0014AED5 /* Sources */,
+				7013B69018AE79BD0014AED5 /* Frameworks */,
+				7013B69118AE79BD0014AED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7013B69818AE79BD0014AED5 /* PBXTargetDependency */,
+			);
+			name = FlyoutPopUpButtonTestTests;
+			productName = FlyoutPopUpButtonTestTests;
+			productReference = 7013B69318AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7013B66A18AE79BD0014AED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALTO;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ALTO;
+				TargetAttributes = {
+					7013B69218AE79BD0014AED5 = {
+						TestTargetID = 7013B67118AE79BD0014AED5;
+					};
+				};
+			};
+			buildConfigurationList = 7013B66D18AE79BD0014AED5 /* Build configuration list for PBXProject "FlyoutPopUpButtonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7013B66918AE79BD0014AED5;
+			productRefGroup = 7013B67318AE79BD0014AED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7013B67118AE79BD0014AED5 /* FlyoutPopUpButtonTest */,
+				7013B69218AE79BD0014AED5 /* FlyoutPopUpButtonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7013B67018AE79BD0014AED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013B68018AE79BD0014AED5 /* InfoPlist.strings in Resources */,
+				7013B68E18AE79BD0014AED5 /* Images.xcassets in Resources */,
+				7013B68618AE79BD0014AED5 /* Credits.rtf in Resources */,
+				7013B68C18AE79BD0014AED5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7013B69118AE79BD0014AED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013B69E18AE79BD0014AED5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7013B66E18AE79BD0014AED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013B68918AE79BD0014AED5 /* FlyoutAppDelegate.m in Sources */,
+				7013B68218AE79BD0014AED5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7013B68F18AE79BD0014AED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7013B6A018AE79BD0014AED5 /* FlyoutPopUpButtonTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7013B69818AE79BD0014AED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7013B67118AE79BD0014AED5 /* FlyoutPopUpButtonTest */;
+			targetProxy = 7013B69718AE79BD0014AED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7013B67E18AE79BD0014AED5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7013B67F18AE79BD0014AED5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7013B68418AE79BD0014AED5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7013B68518AE79BD0014AED5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7013B68A18AE79BD0014AED5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7013B68B18AE79BD0014AED5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7013B69C18AE79BD0014AED5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7013B69D18AE79BD0014AED5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7013B6A118AE79BD0014AED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7013B6A218AE79BD0014AED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7013B6A418AE79BD0014AED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyoutPopUpButtonTest/FlyoutPopUpButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "FlyoutPopUpButtonTest/FlyoutPopUpButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7013B6A518AE79BD0014AED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyoutPopUpButtonTest/FlyoutPopUpButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "FlyoutPopUpButtonTest/FlyoutPopUpButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7013B6A718AE79BD0014AED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyoutPopUpButtonTest.app/Contents/MacOS/FlyoutPopUpButtonTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyoutPopUpButtonTest/FlyoutPopUpButtonTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlyoutPopUpButtonTestTests/FlyoutPopUpButtonTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7013B6A818AE79BD0014AED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyoutPopUpButtonTest.app/Contents/MacOS/FlyoutPopUpButtonTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyoutPopUpButtonTest/FlyoutPopUpButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "FlyoutPopUpButtonTestTests/FlyoutPopUpButtonTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7013B66D18AE79BD0014AED5 /* Build configuration list for PBXProject "FlyoutPopUpButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7013B6A118AE79BD0014AED5 /* Debug */,
+				7013B6A218AE79BD0014AED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7013B6A318AE79BD0014AED5 /* Build configuration list for PBXNativeTarget "FlyoutPopUpButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7013B6A418AE79BD0014AED5 /* Debug */,
+				7013B6A518AE79BD0014AED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7013B6A618AE79BD0014AED5 /* Build configuration list for PBXNativeTarget "FlyoutPopUpButtonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7013B6A718AE79BD0014AED5 /* Debug */,
+				7013B6A818AE79BD0014AED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7013B66A18AE79BD0014AED5 /* Project object */;
+}
